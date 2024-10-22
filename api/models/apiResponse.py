@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import List
-from app.schemas.project import ProjectSchema
+from api.schemas.project import ProjectSchema
 
 class ApiResponse(BaseModel):
     status: str

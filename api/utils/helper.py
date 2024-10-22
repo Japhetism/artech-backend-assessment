@@ -1,6 +1,6 @@
 import random
 import string
-from app.models import Project as ProjectModel
+from api.models import Project as ProjectModel
 
 def generate_alphanumeric_id(length=6):
     characters = string.ascii_letters + string.digits

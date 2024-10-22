@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from app.models.apiResponse import ApiResponse
-from app.services.project_service import get_projects
+from api.models.apiResponse import ApiResponse
+from api.services.project_service import get_projects
 
 
 router = APIRouter()
